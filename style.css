@@ -1,0 +1,152 @@
+.btn{
+    background: #A49375;
+    color: #fff;
+    padding: 9px 25px;
+    border-radius: 20px;
+}
+h3{
+    font-size: 36px;
+}
+img{
+    max-width: 100%;
+}
+#intro .jumbotron{
+    height: 70vh;
+    background: #B9C6E7;
+    margin-bottom: 0px;
+}
+#intro h1{
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#intro p{
+    font-family: 'Noto Serif TC', serif;
+    font-weight: bold;
+    letter-spacing:10px;
+}
+#intro a{
+    font-family: 'Noto Serif TC', serif;
+}
+#intro .container{
+    position:relative;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+header nav img{
+    width: 130px;
+}
+header li{
+    margin: 0px 20px;
+    font-family: 'Noto Serif TC', serif;
+}
+#second{
+    padding: 80px 0;
+}
+#second h3{
+    margin-bottom: 10px;
+    font-family: 'Noto Serif TC', serif;
+}
+#second h4{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#second p{
+    margin-top: 10px;
+    font-family: 'Noto Serif TC', serif;
+}
+#second img{
+    width: 150px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+/* @media screen and (max-width:768px){
+    
+} */
+
+#latest{
+    padding: 80ox 0;
+    background: rgb(248,248,248);
+}
+#latest h3{
+    margin-bottom: 80px;
+    font-family: 'Noto Serif TC', serif;
+}
+#latest h2{
+    margin-bottom: 10px;
+    font-family: 'Noto Serif TC', serif;
+}
+#latest h6{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#latest .upper{
+    position: relative;
+}
+#latest .innertext{
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+}
+#latest .innertext span{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+/* #latest .innertext h6{
+    font-size: 22px;
+    margin-top: 18px;
+} */
+#latest .lower h2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#latest .outer{
+    background: #fff;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0,0.08);
+}
+#latest .lower{
+    padding: 6px 20px 20px 20px;
+}
+#latest a{
+    color: black;
+    text-decoration: none;
+}
+#latest a:hover{
+    text-decoration:underline;
+}
+/* #email{
+    padding: 80px 0;
+}
+#email h3{
+    margin-bottom: 20px;
+} */
+#FAQ{
+    font-family: 'Noto Serif TC', serif;
+}
+footer{
+    border-top: solid 1px #c9c9c9;
+    padding: 80px 0;
+    font-family: 'Noto Serif TC', serif;
+}
+footer img{
+    width: 112px;
+    margin-top: 30px;
+    margin-bottom:26px;
+}
+footer h5{
+    margin-bottom:26px;
+    color: #89a3e6;
+}
+footer a{
+    color: #A49375;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #7a6747;
+    text-decoration:underline;
+}
+footer i{
+    font-size: 20px;
+}

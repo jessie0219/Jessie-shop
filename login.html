@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>echo shop-login</title>
+    <meta charset="UTF-8" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="login.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- NOTE: 引入 bootstrap icon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grape+Nuts&family=Hurricane&family=Indie+Flower&family=Inspiration&family=Josefin+Sans&family=Noto+Sans+TC:wght@100;500&family=Noto+Serif+TC:wght@200;500&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style_login.css" />
+  </head>
+  <body>
+      <section id="intro">
+          <div class="jumbotron">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12 text-light">
+                          <h1>Echo Shop</h1>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    <div class="container p-5 col-sm-6">
+      <form class="needs-validation" novalidate>
+        <div class="mb-3">
+          <label for="accountInput">帳號</label>
+          <input
+            class="form-control"
+            type="text"
+            id="accountInput"
+            name="Account"
+            placeholder="輸入帳號"
+            required
+          />
+          <div class="invalid-feedback">請輸入帳號。</div>
+        </div>
+        <div class="mb-3">
+          <label for="passwordInput">密碼</label>
+          <input
+            class="form-control"
+            type="password"
+            id="passwordInput"
+            name="Passowrd"
+            placeholder="輸入密碼"
+            required
+          />
+          <div class="invalid-feedback">請輸入密碼。</div>
+        </div>
+        <div class="form-check mb-3">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="rememberMeCheckbox"
+            name="RememberMe"
+          />
+          <label class="form-check-label" for="rememberMeCheckbox"
+            >記住我的帳號</label
+          >
+          <!-- 步驟2 參考文件製作 icon-button(用於觸發顯示彈窗)-->
+          <i
+            class="text-primary bi bi-info-circle"
+            id="rememberMeInfoBtn"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            style="cursor: pointer"
+          ></i>
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">小提示</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            記憶您輸入的帳號，讓您更快速地<s>衝動購物</s>登入。
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary mx-auto"
+              data-bs-dismiss="modal"
+            >
+              賀啦!
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
