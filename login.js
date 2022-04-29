@@ -11,7 +11,7 @@ $(document).ready(function () {
       if ($('.form-control:invalid').length === 0) {
         // doLogin()
         alert('登入囉:))))');
-        location.href = "/practise/jessie-shop/index.html";
+        location.href = "index.html";
       }
     });
 });
